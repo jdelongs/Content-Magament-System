@@ -1,0 +1,53 @@
+
+.navbar{
+    position: inherit;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    background-color: #0EBFE9;
+}
+
+.navlist{
+    float: left;
+}
+
+.navlist .nav{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navlist .nav:hover {
+    color: #F0FFFF;
+    background-color: #0FA0CE;
+}
+
+
+/**
+ footer styles
+ */
+
+
+.footer {
+    height: 50px;
+    width: 100%;
+    position:absolute;
+    bottom:0;
+    text-align: center;
+    background-color: transparent;
+}
+#login {
+    float: right;
+
+}
+#register {
+    float: right;
+}
+#logout {
+    float: right;
+}
