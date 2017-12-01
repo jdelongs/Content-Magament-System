@@ -1,5 +1,5 @@
 <?php
 //connect to the database
-$conn = new PDO('mysql:host=sql.computerstudi.es;dbname=gc200339389', 'gc200339389', 'dFqU^s25');
+$conn = new PDO('mysql:host=host;dbname=dbname', 'user', 'password');
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 ?>
